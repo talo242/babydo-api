@@ -13,7 +13,7 @@ export class AuthController {
   }
 
   @Post('login')
-  loginLocal() {
-    return this.authService.loginLocal();
+  loginLocal(@Body() dto: AuthDto) {
+    return this.authService.loginLocal(dto);
   }
 }
