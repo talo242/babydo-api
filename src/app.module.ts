@@ -17,6 +17,7 @@ import { UserModule } from './user/user.module';
       driver: ApolloDriver,
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
       sortSchema: true,
+      context: ({ req, res }) => ({ req, res }),
     }),
     AuthModule,
     PrismaModule,
