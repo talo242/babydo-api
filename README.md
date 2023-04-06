@@ -1,30 +1,13 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# Babydo API
+<svg width="76" height="76" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M52.808 55.42H37.549a6.81 6.81 0 110-13.619h15.259a6.81 6.81 0 110 13.62z" fill="#8BB6EF"/><path d="M56.977 68.978l-2.86-14.883a6.81 6.81 0 0113.374-2.57l2.86 14.884a6.81 6.81 0 11-13.374 2.57zM15.407 64.588L22.318 51.1a6.81 6.81 0 0112.121 6.21l-6.91 13.489a6.81 6.81 0 01-12.122-6.21zM21.982 21.697l3.35-14.886A6.81 6.81 0 1138.618 9.8l-3.35 14.886a6.81 6.81 0 11-13.287-2.989z" fill="#8BB6EF"/><path d="M33.739 24.377l2.86 14.884a6.81 6.81 0 11-13.375 2.57l-2.86-14.884a6.81 6.81 0 1113.375-2.57zM56.835 35.514l2.612-4.524a6.81 6.81 0 0111.795 6.81l-2.612 4.524a6.81 6.81 0 01-11.795-6.81z" fill="#8BB6EF"/><path d="M54.085 50.851c-.414.095-17.618.147-17.618.147a5.74 5.74 0 01-.872-.067c.388 1.448.683 2.926.906 4.41.342.052.692.08 1.048.08h17.414l-.878-4.57zM70.351 66.409l-2.86-14.884a6.81 6.81 0 00-6.465-5.52 5.72 5.72 0 01.627 1.716l2.405 12.52a5.728 5.728 0 01-7.514 6.487l.433 2.25a6.81 6.81 0 1013.374-2.57z" fill="#8388EF"/><path d="M68.75 28.497a6.8 6.8 0 00-6.278-.275 5.728 5.728 0 012.336 7.954l-2.198 3.806a5.728 5.728 0 01-5.456 2.842 6.81 6.81 0 0011.476-.501l2.612-4.524a6.81 6.81 0 00-2.492-9.302z" fill="#8388EF"/><path d="M19.742 31.96H9.297a6.81 6.81 0 110-13.619h10.445a6.81 6.81 0 110 13.62z" fill="#8BB6EF"/><path d="M69.924 43.07l2.612-4.523a8.251 8.251 0 00.83-6.302 8.25 8.25 0 00-3.87-5.042 8.25 8.25 0 00-6.3-.83 8.25 8.25 0 00-5.043 3.87l-2.612 4.524a8.265 8.265 0 00-.954 5.732 8.301 8.301 0 00-1.779-.192H38.212a8.4 8.4 0 00-.146-1.328l-2.239-11.654a8.258 8.258 0 00.9-2.31l3.35-14.887a8.25 8.25 0 00-1.084-6.263A8.25 8.25 0 0033.797.204c-4.467-1.006-8.919 1.811-9.924 6.279L21.5 17.036a8.3 8.3 0 00-1.757-.19H9.297c-4.578 0-8.304 3.726-8.304 8.305s3.726 8.304 8.304 8.304h10.445c.117 0 .233-.004.35-.009l1.664 8.666a8.263 8.263 0 002.766 4.744 8.257 8.257 0 00-3.534 3.562l-6.911 13.489a8.25 8.25 0 00-.513 6.335 8.249 8.249 0 004.117 4.842c1.208.62 2.5.913 3.773.913a8.314 8.314 0 007.404-4.517l6.911-13.488c.196-.383.36-.777.494-1.178.42.066.848.102 1.286.102h15.259c.11 0 .218-.005.327-.01l2.374 12.355a8.25 8.25 0 003.496 5.307 8.245 8.245 0 006.226 1.28c4.496-.863 7.451-5.224 6.588-9.72l-2.86-14.885a8.24 8.24 0 00-2.788-4.77 8.26 8.26 0 003.753-3.402zM26.79 7.14a5.325 5.325 0 016.353-4.02 5.28 5.28 0 013.325 2.344 5.28 5.28 0 01.694 4.009l-2.768 12.302a8.265 8.265 0 00-2.683-2.987 8.25 8.25 0 00-6.225-1.28 8.397 8.397 0 00-1.093.287L26.79 7.139zM9.297 30.466a5.321 5.321 0 01-5.315-5.315 5.321 5.321 0 015.315-5.315h10.445a5.321 5.321 0 015.315 5.315 5.321 5.321 0 01-5.315 5.315H9.297zm13.71 2.319c2.96-1.271 5.04-4.214 5.04-7.634a8.256 8.256 0 00-1.52-4.779 5.278 5.278 0 013.506.89 5.28 5.28 0 012.239 3.397l2.86 14.883a5.28 5.28 0 01-.82 3.985 5.28 5.28 0 01-3.398 2.238 5.322 5.322 0 01-6.223-4.217l-1.683-8.763zM33.11 56.629L26.2 70.117a5.322 5.322 0 01-7.155 2.307 5.28 5.28 0 01-2.635-3.1 5.28 5.28 0 01.328-4.054l6.911-13.489a5.32 5.32 0 017.155-2.307 5.28 5.28 0 012.635 3.1 5.281 5.281 0 01-.329 4.055zm19.467-2.703H37.549c-.297 0-.588-.025-.873-.072a8.334 8.334 0 00-.394-2.197 8.25 8.25 0 00-2.5-3.76 8.346 8.346 0 003.967-4.601h15.059c1.728 0 3.265.83 4.236 2.111-3.084 1.569-4.952 4.965-4.468 8.52zM68.884 66.69a5.28 5.28 0 01-.82 3.985 5.281 5.281 0 01-3.397 2.238 5.281 5.281 0 01-3.985-.82 5.28 5.28 0 01-2.238-3.397l-2.86-14.883a5.321 5.321 0 015.231-6.32c1.052 0 2.08.313 2.97.916a5.28 5.28 0 012.239 3.398l2.86 14.883zm-8.809-23.168a5.28 5.28 0 01-2.477-3.228 5.28 5.28 0 01.532-4.033l2.611-4.524a5.281 5.281 0 013.228-2.477 5.283 5.283 0 014.033.531 5.281 5.281 0 012.477 3.228 5.281 5.281 0 01-.531 4.033l-2.612 4.525a5.322 5.322 0 01-7.261 1.945z" fill="#440A29"/><path d="M18.323 25.167H15.07a1.494 1.494 0 010-2.988h3.254a1.494 1.494 0 010 2.988zM9.285 25.167H7.98a1.494 1.494 0 010-2.988h1.305a1.494 1.494 0 010 2.988z" fill="#fff"/><path d="M69.283 1.86L70.51 5.31a.554.554 0 00.288.324l3.067 1.382c.433.195.433.885 0 1.08L70.798 9.48a.555.555 0 00-.288.324l-1.227 3.452c-.174.488-.787.488-.96 0l-1.228-3.452a.554.554 0 00-.288-.324L63.74 8.098c-.433-.195-.433-.886 0-1.081l3.067-1.382a.555.555 0 00.288-.324l1.228-3.451c.173-.488.786-.488.96 0zM50.861 16.106l.911 2.56c.04.11.116.197.214.24l2.274 1.026c.322.144.322.656 0 .801l-2.274 1.025a.412.412 0 00-.214.24l-.91 2.56c-.13.362-.584.362-.713 0l-.91-2.56a.41.41 0 00-.214-.24l-2.275-1.025c-.321-.145-.321-.657 0-.802l2.275-1.024a.411.411 0 00.214-.24l.91-2.561c.129-.362.584-.362.712 0z" fill="#B2E7F1"/><path d="M53.833 7.146a2.682 2.682 0 10-2.804-4.572 2.682 2.682 0 002.804 4.572zM75.013 20.152a1.156 1.156 0 10-2.294-.293 1.156 1.156 0 002.294.293z" fill="#8BB6EF"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h76v76H0z"/></clipPath></defs></svg>
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Backend codebase for [BabyDo](https://babydo.vercel.app) an app that helps you keep track of your baby’s routine.
+Built with [Nest](https://github.com/nestjs/nest) + Typescript
+
+## Todo
+- [ ] Add GraphQL
 
 ## Installation
 
@@ -57,17 +40,3 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
